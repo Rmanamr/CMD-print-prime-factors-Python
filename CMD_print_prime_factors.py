@@ -73,6 +73,10 @@ def is_Prime_Number(number):
      >>> is_Prime_Number(8)
          False
     """
+    if(number == 1):
+        return False
+        # number 1 is not a prime number
+    
     divisors = []
     divisor = 2
     while (divisor <= number / 2):
